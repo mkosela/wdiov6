@@ -1,0 +1,91 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "demo feaure",
+    "children" : [ {
+      "name" : "demo scenario",
+      "uid" : "3edb0aa466b8b7c1",
+      "parentUid" : "377fb904318e6751f4b0904ed6704700",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599656009045,
+        "stop" : 1599656025908,
+        "duration" : 16863
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "demo scenario",
+      "uid" : "d3f1a59de5bc016b",
+      "parentUid" : "377fb904318e6751f4b0904ed6704700",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599656010023,
+        "stop" : 1599656027771,
+        "duration" : 17748
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "opera-83.0.4103.116" ]
+    }, {
+      "name" : "demo scenario",
+      "uid" : "87d6b4594bad31c2",
+      "parentUid" : "377fb904318e6751f4b0904ed6704700",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599656013448,
+        "stop" : 1599656029569,
+        "duration" : 16121
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-4.14.186-146.268.amzn2.x86_64" ]
+    } ],
+    "uid" : "377fb904318e6751f4b0904ed6704700"
+  }, {
+    "name" : "Basic lot.com",
+    "children" : [ {
+      "name" : "Searching for flight",
+      "uid" : "158cc585646ce0d2",
+      "parentUid" : "858eb28f33ae04929ba5ddd52a90c8c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602062020198,
+        "stop" : 1602062042412,
+        "duration" : 22214
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "fbe10b87797272ff",
+      "parentUid" : "858eb28f33ae04929ba5ddd52a90c8c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602062020214,
+        "stop" : 1602062045693,
+        "duration" : 25479
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "opera-83.0.4103.116" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "5c25438e7d55ea55",
+      "parentUid" : "858eb28f33ae04929ba5ddd52a90c8c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602062021433,
+        "stop" : 1602062043701,
+        "duration" : 22268
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-4.14.186-146.268.amzn2.x86_64" ]
+    } ],
+    "uid" : "858eb28f33ae04929ba5ddd52a90c8c5"
+  } ]
+}

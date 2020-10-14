@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1602504763432' stop='1602504771852'>
+    <name>Basic lot.com</name>
+    <title>Basic lot.com</title>
+    <test-cases>
+        <test-case start='1602504763438' status='broken' stop='1602504771850'>
+            <name>Searching for flight</name>
+            <title>Searching for flight</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-85.0.4183.121'/>
+            </parameters>
+            <steps>
+                <step start='1602504763442' status='passed' stop='1602504766180'>
+                    <name>Given I open lot.com page</name>
+                    <title>Given I open lot.com page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1602504766180' status='passed' stop='1602504767597'>
+                    <name>When I enter departure airport as WAW</name>
+                    <title>When I enter departure airport as WAW</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1602504767597' status='broken' stop='1602504771849'>
+                    <name>And I enter arrival airport as KRK</name>
+                    <title>And I enter arrival airport as KRK</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1602504771850' status='canceled' stop='1602504771850'>
+                    <name>And I select one way trip</name>
+                    <title>And I select one way trip</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1602504771850' status='canceled' stop='1602504771850'>
+                    <name>And I enter departure date as 25.10.2020</name>
+                    <title>And I enter departure date as 25.10.2020</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1602504771850' status='canceled' stop='1602504771850'>
+                    <name>And I search for flights</name>
+                    <title>And I search for flights</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1602504771850' status='canceled' stop='1602504771850'>
+                    <name>Then avaliable flights are displayed</name>
+                    <title>Then avaliable flights are displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;span class="select2-selection__rendered" id="select2-destinationAirport-container">...&lt;/span> is not clickable at point (1403, 288). Other element would receive the click: &lt;input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" role="textbox" aria-labelledby="destinationAirport-label" aria-describedby="select2-destinationAirport-result-p2t2-JNB">
+                  (Session info: chrome=85.0.4183.121)</message>
+                <stack-trace>element click intercepted: Element &lt;span class="select2-selection__rendered" id="select2-destinationAirport-container">...&lt;/span> is not clickable at point (1403, 288). Other element would receive the click: &lt;input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" role="textbox" aria-labelledby="destinationAirport-label" aria-describedby="select2-destinationAirport-result-p2t2-JNB">
+                  (Session info: chrome=85.0.4183.121)
+                    at Object.getErrorFromResponseBody (Q:\wdiov6\node_modules\webdriver\build\utils.js:94:12)
+                    at WebDriverRequest._request (Q:\wdiov6\node_modules\webdriver\build\request.js:133:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Element.elementErrorHandlerCallbackFn (Q:\wdiov6\node_modules\webdriverio\build\middlewares.js:17:32)
+                    at Element.runCommandWithHooks (Q:\wdiov6\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+                    at Element.runCommandWithHooks (Q:\wdiov6\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+                    at Element.wrapCommandFn (Q:\wdiov6\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+                    at Element.elementErrorHandlerCallback (Q:\wdiov6\node_modules\webdriverio\build\middlewares.js:34:12)
+                    at Homepage.enterArrivalAirport (Q:\wdiov6\features\page_objects\homepage.ts:48:25)
+                    at Flights.enterArrivalAirport (Q:\wdiov6\features\step_definitions\flights.steps.ts:19:14)
+                    at World.bindingFunc (Q:\wdiov6\node_modules\cucumber-tsflow\src\binding-decorator.ts:172:22)
+                    at World.executeSync (Q:\wdiov6\node_modules\@wdio\sync\build\index.js:25:22)
+                    at Q:\wdiov6\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

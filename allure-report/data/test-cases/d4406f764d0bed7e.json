@@ -1,0 +1,171 @@
+{
+  "uid" : "d4406f764d0bed7e",
+  "name" : "Searching for flight",
+  "fullName" : "Basic lot.com.Searching for flight",
+  "historyId" : "ae700e963d6283f84d1bc40d0def89ae",
+  "time" : {
+    "start" : 1601985274375,
+    "stop" : 1601985277796,
+    "duration" : 3421
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"Then avaliable flights are displayed\" is not definedYou can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "undefined:undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Step \"Then avaliable flights are displayed\" is not definedYou can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+    "statusTrace" : "undefined:undefined",
+    "steps" : [ {
+      "name" : "Given I open lot.com page",
+      "time" : {
+        "start" : 1601985274379,
+        "stop" : 1601985277784,
+        "duration" : 3405
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e2c797dd072a9b",
+        "name" : "Screenshot",
+        "source" : "3e2c797dd072a9b.png",
+        "type" : "image/png",
+        "size" : 32015
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I enter departure airport as \"WAW\"",
+      "time" : {
+        "start" : 1601985277785,
+        "stop" : 1601985277787,
+        "duration" : 2
+      },
+      "status" : "broken",
+      "statusMessage" : "undefined:undefined",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "And I enter arrival airport as \"KRK\"",
+      "time" : {
+        "start" : 1601985277789,
+        "stop" : 1601985277790,
+        "duration" : 1
+      },
+      "status" : "broken",
+      "statusMessage" : "undefined:undefined",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "And I enter departure date as \"25.10.2020\"",
+      "time" : {
+        "start" : 1601985277791,
+        "stop" : 1601985277792,
+        "duration" : 1
+      },
+      "status" : "broken",
+      "statusMessage" : "undefined:undefined",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "And I search for flights",
+      "time" : {
+        "start" : 1601985277793,
+        "stop" : 1601985277794,
+        "duration" : 1
+      },
+      "status" : "broken",
+      "statusMessage" : "undefined:undefined",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "Then avaliable flights are displayed",
+      "time" : {
+        "start" : 1601985277795,
+        "stop" : 1601985277796,
+        "duration" : 1
+      },
+      "status" : "broken",
+      "statusMessage" : "undefined:undefined",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Basic lot.com"
+  }, {
+    "name" : "testClass",
+    "value" : "Basic lot.com"
+  }, {
+    "name" : "testMethod",
+    "value" : "Searching for flight"
+  }, {
+    "name" : "package",
+    "value" : "Basic lot.com"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4406f764d0bed7e.json",
+  "parameterValues" : [ "chrome" ]
+}

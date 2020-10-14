@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Sep 09 14:53:29 CEST 2020","Wed Sep 09 14:53:45 CEST 2020","16863","","demo feaure","","demo feaure","demo scenario","demo scenario",""
+"passed","Wed Oct 07 11:13:41 CEST 2020","Wed Oct 07 11:14:03 CEST 2020","22268","","Basic lot.com","","Basic lot.com","Searching for flight","Searching for flight",""
+"passed","Wed Sep 09 14:53:30 CEST 2020","Wed Sep 09 14:53:47 CEST 2020","17748","","demo feaure","","demo feaure","demo scenario","demo scenario",""
+"passed","Wed Oct 07 11:13:40 CEST 2020","Wed Oct 07 11:14:05 CEST 2020","25479","","Basic lot.com","","Basic lot.com","Searching for flight","Searching for flight",""
+"passed","Wed Sep 09 14:53:33 CEST 2020","Wed Sep 09 14:53:49 CEST 2020","16121","","demo feaure","","demo feaure","demo scenario","demo scenario",""
+"passed","Wed Oct 07 11:13:40 CEST 2020","Wed Oct 07 11:14:02 CEST 2020","22214","","Basic lot.com","","Basic lot.com","Searching for flight","Searching for flight",""

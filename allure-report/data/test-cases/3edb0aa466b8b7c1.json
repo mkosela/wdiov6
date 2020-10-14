@@ -1,0 +1,110 @@
+{
+  "uid" : "3edb0aa466b8b7c1",
+  "name" : "demo scenario",
+  "fullName" : "demo feaure.demo scenario",
+  "historyId" : "a29c2fe2e73a6fa7a404f97fe0f25c1e",
+  "time" : {
+    "start" : 1599656009045,
+    "stop" : 1599656025908,
+    "duration" : 16863
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When I start script",
+      "time" : {
+        "start" : 1599656009052,
+        "stop" : 1599656011968,
+        "duration" : 2916
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5db91881a45366c6",
+        "name" : "Screenshot",
+        "source" : "5db91881a45366c6.png",
+        "type" : "image/png",
+        "size" : 40205
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then script is executed",
+      "time" : {
+        "start" : 1599656011968,
+        "stop" : 1599656025906,
+        "duration" : 13938
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bc32be4d123531ac",
+        "name" : "Screenshot",
+        "source" : "bc32be4d123531ac.png",
+        "type" : "image/png",
+        "size" : 388944
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "demo feaure"
+  }, {
+    "name" : "testClass",
+    "value" : "demo feaure"
+  }, {
+    "name" : "testMethod",
+    "value" : "demo scenario"
+  }, {
+    "name" : "package",
+    "value" : "demo feaure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3edb0aa466b8b7c1.json",
+  "parameterValues" : [ "chrome" ]
+}

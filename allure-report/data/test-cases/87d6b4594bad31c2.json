@@ -1,0 +1,110 @@
+{
+  "uid" : "87d6b4594bad31c2",
+  "name" : "demo scenario",
+  "fullName" : "demo feaure.demo scenario",
+  "historyId" : "cd0a8cf3eb5c758612d98329ed9a352b",
+  "time" : {
+    "start" : 1599656013448,
+    "stop" : 1599656029569,
+    "duration" : 16121
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When I start script",
+      "time" : {
+        "start" : 1599656013453,
+        "stop" : 1599656021443,
+        "duration" : 7990
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "faef16ef1fff35d5",
+        "name" : "Screenshot",
+        "source" : "faef16ef1fff35d5.png",
+        "type" : "image/png",
+        "size" : 598898
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then script is executed",
+      "time" : {
+        "start" : 1599656021443,
+        "stop" : 1599656029567,
+        "duration" : 8124
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bce6c48f33a6dbb3",
+        "name" : "Screenshot",
+        "source" : "bce6c48f33a6dbb3.png",
+        "type" : "image/png",
+        "size" : 620857
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "2-0"
+  }, {
+    "name" : "suite",
+    "value" : "demo feaure"
+  }, {
+    "name" : "testClass",
+    "value" : "demo feaure"
+  }, {
+    "name" : "testMethod",
+    "value" : "demo scenario"
+  }, {
+    "name" : "package",
+    "value" : "demo feaure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-4.14.186-146.268.amzn2.x86_64"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "87d6b4594bad31c2.json",
+  "parameterValues" : [ "firefox-4.14.186-146.268.amzn2.x86_64" ]
+}

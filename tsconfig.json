@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./*"],
+      "src/*": ["./features/*"]
+    },
+    "typeRoots": ["./types"],
+    "types": [
+      "node",
+      "@wdio/sync",
+      "chai",
+      "@wdio/cucumber-framework",
+      "reflect-metadata"
+    ],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "target": "ES5"
+  },
+  "include": ["./features/step_definitions/**/*.ts"]
+}

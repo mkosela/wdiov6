@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1602502851774' stop='1602502868714'>
+    <name>Basic lot.com</name>
+    <title>Basic lot.com</title>
+    <test-cases>
+        <test-case start='1602502851778' status='broken' stop='1602502868712'>
+            <name>Searching for flight</name>
+            <title>Searching for flight</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-85.0.4183.121'/>
+            </parameters>
+            <steps>
+                <step start='1602502851781' status='passed' stop='1602502854334'>
+                    <name>Given I open lot.com page</name>
+                    <title>Given I open lot.com page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1602502854335' status='passed' stop='1602502855451'>
+                    <name>When I enter departure airport as "WAW"</name>
+                    <title>When I enter departure airport as "WAW"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1602502855451' status='passed' stop='1602502858708'>
+                    <name>And I enter arrival airport as "KRK"</name>
+                    <title>And I enter arrival airport as "KRK"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1602502858708' status='passed' stop='1602502858709'>
+                    <name>And I select one way trip</name>
+                    <title>And I select one way trip</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1602502858709' status='broken' stop='1602502868712'>
+                    <name>And I enter departure date as 25.10.2020</name>
+                    <title>And I enter departure date as 25.10.2020</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1602502868712' status='canceled' stop='1602502868712'>
+                    <name>And I search for flights</name>
+                    <title>And I search for flights</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1602502868713' status='canceled' stop='1602502868713'>
+                    <name>Then avaliable flights are displayed</name>
+                    <title>Then avaliable flights are displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>function timed out, ensure the promise resolves within 10000 milliseconds</message>
+                <stack-trace>Error: function timed out, ensure the promise resolves within 10000 milliseconds
+                    at Timeout._onTimeout (Q:\wdiov6\node_modules\cucumber\lib\user_code_runner.js:76:18)
+                    at listOnTimeout (internal/timers.js:551:17)
+                    at processTimers (internal/timers.js:494:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

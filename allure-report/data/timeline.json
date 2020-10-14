@@ -1,0 +1,485 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "demo scenario",
+      "uid" : "3edb0aa466b8b7c1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599656009045,
+        "stop" : 1599656025908,
+        "duration" : 16863
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "158cc585646ce0d2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602062020198,
+        "stop" : 1602062042412,
+        "duration" : 22214
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "1a6c7dce6bee3a25",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601985917006,
+        "stop" : 1601985936591,
+        "duration" : 19585
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "cdb60822bed00199",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601983868751,
+        "stop" : 1601983868762,
+        "duration" : 11
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "7e9ec0bf854c32f5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601985808608,
+        "stop" : 1601985827494,
+        "duration" : 18886
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "8dd111962254ccc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601984583530,
+        "stop" : 1601984587452,
+        "duration" : 3922
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "91f846e868c7ae69",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601985364557,
+        "stop" : 1601985380975,
+        "duration" : 16418
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "d4406f764d0bed7e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601985274375,
+        "stop" : 1601985277796,
+        "duration" : 3421
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "a5c2fe2727d4684",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601983982258,
+        "stop" : 1601983986396,
+        "duration" : 4138
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "2cc481ba798068d2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601984706679,
+        "stop" : 1601984710078,
+        "duration" : 3399
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "409549001a2aa843",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601983911973,
+        "stop" : 1601983911981,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "1b608bbcd3f86251",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601984995075,
+        "stop" : 1601984998632,
+        "duration" : 3557
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "1-0",
+    "children" : [ {
+      "name" : "Searching for flight",
+      "uid" : "f3d505d7f517c66c",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601983868991,
+        "stop" : 1601983869003,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "opera-83.0.4103.116" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "33cdf3e25d950418",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601985809289,
+        "stop" : 1601985829747,
+        "duration" : 20458
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "opera-83.0.4103.116" ]
+    }, {
+      "name" : "demo scenario",
+      "uid" : "d3f1a59de5bc016b",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599656010023,
+        "stop" : 1599656027771,
+        "duration" : 17748
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "opera-83.0.4103.116" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "a72dd6398cc7e13b",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601984707852,
+        "stop" : 1601984711727,
+        "duration" : 3875
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "opera-83.0.4103.116" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "1210ccaed299f5d3",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601985365260,
+        "stop" : 1601985382043,
+        "duration" : 16783
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "opera-83.0.4103.116" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "5d87db02144e32c3",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601983982824,
+        "stop" : 1601983987376,
+        "duration" : 4552
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "opera-83.0.4103.116" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "9cb50b769df99ec9",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601984584663,
+        "stop" : 1601984589459,
+        "duration" : 4796
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "opera-83.0.4103.116" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "fbe10b87797272ff",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602062020214,
+        "stop" : 1602062045693,
+        "duration" : 25479
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "opera-83.0.4103.116" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "e9bb8888b9f9119d",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601984995900,
+        "stop" : 1601985000918,
+        "duration" : 5018
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "opera-83.0.4103.116" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "c44b5cb3b88814",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601985275099,
+        "stop" : 1601985280979,
+        "duration" : 5880
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "opera-83.0.4103.116" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "7ca8161f8c2e172a",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601983912961,
+        "stop" : 1601983912967,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "opera-83.0.4103.116" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "a64e41a1f8a8fbed",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601985917652,
+        "stop" : 1601985940546,
+        "duration" : 22894
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "opera-83.0.4103.116" ]
+    } ],
+    "uid" : "5d884c24784638b93056bad95e3212e7"
+  }, {
+    "name" : "2-0",
+    "children" : [ {
+      "name" : "Searching for flight",
+      "uid" : "c060e3acbdf63ee6",
+      "parentUid" : "7b1daf7a03b1e0269c064c8965966bc1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601985810784,
+        "stop" : 1601985828787,
+        "duration" : 18003
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-4.14.186-146.268.amzn2.x86_64" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "46bc8efaaff37c84",
+      "parentUid" : "7b1daf7a03b1e0269c064c8965966bc1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601983870255,
+        "stop" : 1601983870261,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-4.14.186-146.268.amzn2.x86_64" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "25d9e20d343d95cc",
+      "parentUid" : "7b1daf7a03b1e0269c064c8965966bc1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601984997217,
+        "stop" : 1601985013707,
+        "duration" : 16490
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-4.14.186-146.268.amzn2.x86_64" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "378c4f6a5db683f",
+      "parentUid" : "7b1daf7a03b1e0269c064c8965966bc1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601984586107,
+        "stop" : 1601984592340,
+        "duration" : 6233
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-4.14.186-146.268.amzn2.x86_64" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "bbdf536abafeda31",
+      "parentUid" : "7b1daf7a03b1e0269c064c8965966bc1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601984709216,
+        "stop" : 1601984714878,
+        "duration" : 5662
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-4.14.186-146.268.amzn2.x86_64" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "4b4cf4480f29d743",
+      "parentUid" : "7b1daf7a03b1e0269c064c8965966bc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601985919906,
+        "stop" : 1601985939105,
+        "duration" : 19199
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-4.14.186-146.268.amzn2.x86_64" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "5c25438e7d55ea55",
+      "parentUid" : "7b1daf7a03b1e0269c064c8965966bc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602062021433,
+        "stop" : 1602062043701,
+        "duration" : 22268
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-4.14.186-146.268.amzn2.x86_64" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "92aa368f41265c7c",
+      "parentUid" : "7b1daf7a03b1e0269c064c8965966bc1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601985366567,
+        "stop" : 1601985382675,
+        "duration" : 16108
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-4.14.186-146.268.amzn2.x86_64" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "aeed16e6c6f46d67",
+      "parentUid" : "7b1daf7a03b1e0269c064c8965966bc1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601983984207,
+        "stop" : 1601983990327,
+        "duration" : 6120
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-4.14.186-146.268.amzn2.x86_64" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "967c3f5b12b1809a",
+      "parentUid" : "7b1daf7a03b1e0269c064c8965966bc1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601983914454,
+        "stop" : 1601983914460,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-4.14.186-146.268.amzn2.x86_64" ]
+    }, {
+      "name" : "Searching for flight",
+      "uid" : "a1d570d8120e912b",
+      "parentUid" : "7b1daf7a03b1e0269c064c8965966bc1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1601985276279,
+        "stop" : 1601985287360,
+        "duration" : 11081
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-4.14.186-146.268.amzn2.x86_64" ]
+    }, {
+      "name" : "demo scenario",
+      "uid" : "87d6b4594bad31c2",
+      "parentUid" : "7b1daf7a03b1e0269c064c8965966bc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599656013448,
+        "stop" : 1599656029569,
+        "duration" : 16121
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-4.14.186-146.268.amzn2.x86_64" ]
+    } ],
+    "uid" : "7b1daf7a03b1e0269c064c8965966bc1"
+  } ]
+}

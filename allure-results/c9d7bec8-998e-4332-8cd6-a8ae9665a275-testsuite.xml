@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1602506278759' stop='1602506283330'>
+    <name>Basic lot.com</name>
+    <title>Basic lot.com</title>
+    <test-cases>
+        <test-case start='1602506278763' status='passed' stop='1602506283329'>
+            <name>Searching for flight</name>
+            <title>Searching for flight</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-85.0.4183.121'/>
+            </parameters>
+            <steps>
+                <step start='1602506278766' status='passed' stop='1602506281367'>
+                    <name>Given I open lot.com page</name>
+                    <title>Given I open lot.com page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1602506281367' status='passed' stop='1602506282613'>
+                    <name>When I enter departure airport as WAW</name>
+                    <title>When I enter departure airport as WAW</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1602506282614' status='passed' stop='1602506282943'>
+                    <name>And I enter arrival airport as KRK</name>
+                    <title>And I enter arrival airport as KRK</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1602506282943' status='passed' stop='1602506283008'>
+                    <name>And I select one way trip</name>
+                    <title>And I select one way trip</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1602506283008' status='passed' stop='1602506283223'>
+                    <name>And I enter departure date as 25.10.2020</name>
+                    <title>And I enter departure date as 25.10.2020</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1602506283223' status='passed' stop='1602506283328'>
+                    <name>And I search for flights</name>
+                    <title>And I search for flights</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1602506283328' status='passed' stop='1602506283328'>
+                    <name>Then avaliable flights are displayed</name>
+                    <title>Then avaliable flights are displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

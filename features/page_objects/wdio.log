@@ -1,0 +1,5 @@
+2020-07-30T11:54:25.578Z INFO webdriverio: Initiate new session using the devtools protocol
+2020-07-30T11:54:25.580Z INFO devtools: Launch Google Chrome with flags: --disable-extensions --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-sync --metrics-recording-only --disable-default-apps --mute-audio --no-first-run --disable-hang-monitor --disable-prompt-on-repost --disable-client-side-phishing-detection --password-store=basic --use-mock-keychain --disable-component-extensions-with-background-pages --disable-breakpad --disable-dev-shm-usage --disable-ipc-flooding-protection --disable-renderer-backgrounding --enable-features=NetworkService,NetworkServiceInProcess --disable-features=site-per-process,TranslateUI,BlinkGenPropertyTrees --window-position=0,0 --window-size=1200,900
+2020-07-30T11:54:26.093Z INFO devtools: Connect Puppeteer with browser on port 58391
+2020-07-30T11:54:26.152Z INFO devtools: COMMAND navigateTo("https://google.com/")
+2020-07-30T11:54:29.259Z INFO devtools: RESULT null

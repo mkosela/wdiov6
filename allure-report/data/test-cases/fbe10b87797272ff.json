@@ -1,0 +1,304 @@
+{
+  "uid" : "fbe10b87797272ff",
+  "name" : "Searching for flight",
+  "fullName" : "Basic lot.com.Searching for flight",
+  "historyId" : "629451793e43a776ee345f9dce7a0310",
+  "time" : {
+    "start" : 1602062020214,
+    "stop" : 1602062045693,
+    "duration" : 25479
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open lot.com page",
+      "time" : {
+        "start" : 1602062020220,
+        "stop" : 1602062024512,
+        "duration" : 4292
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c4ed54e25a203bbc",
+        "name" : "Screenshot",
+        "source" : "c4ed54e25a203bbc.png",
+        "type" : "image/png",
+        "size" : 30580
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I enter departure airport as \"WAW\"",
+      "time" : {
+        "start" : 1602062024513,
+        "stop" : 1602062040359,
+        "duration" : 15846
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1fdf69775c67becf",
+        "name" : "Screenshot",
+        "source" : "1fdf69775c67becf.png",
+        "type" : "image/png",
+        "size" : 325755
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I enter arrival airport as \"KRK\"",
+      "time" : {
+        "start" : 1602062040359,
+        "stop" : 1602062042971,
+        "duration" : 2612
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8f3b86e9bb184d2f",
+        "name" : "Screenshot",
+        "source" : "8f3b86e9bb184d2f.png",
+        "type" : "image/png",
+        "size" : 377698
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I select one way trip",
+      "time" : {
+        "start" : 1602062042971,
+        "stop" : 1602062043621,
+        "duration" : 650
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3b975664b8e5ba8",
+        "name" : "Screenshot",
+        "source" : "3b975664b8e5ba8.png",
+        "type" : "image/png",
+        "size" : 377698
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I enter departure date as 25.10.2020",
+      "time" : {
+        "start" : 1602062043622,
+        "stop" : 1602062044432,
+        "duration" : 810
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a38eecc05ec50ba",
+        "name" : "Screenshot",
+        "source" : "a38eecc05ec50ba.png",
+        "type" : "image/png",
+        "size" : 377710
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I search for flights",
+      "time" : {
+        "start" : 1602062044432,
+        "stop" : 1602062045056,
+        "duration" : 624
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dddd0542d90dc6c0",
+        "name" : "Screenshot",
+        "source" : "dddd0542d90dc6c0.png",
+        "type" : "image/png",
+        "size" : 377698
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then avaliable flights are displayed",
+      "time" : {
+        "start" : 1602062045057,
+        "stop" : 1602062045691,
+        "duration" : 634
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f11d97735390ddeb",
+        "name" : "Screenshot",
+        "source" : "f11d97735390ddeb.png",
+        "type" : "image/png",
+        "size" : 377710
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Basic lot.com"
+  }, {
+    "name" : "testClass",
+    "value" : "Basic lot.com"
+  }, {
+    "name" : "testMethod",
+    "value" : "Searching for flight"
+  }, {
+    "name" : "package",
+    "value" : "Basic lot.com"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "opera-83.0.4103.116"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a64e41a1f8a8fbed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601985917652,
+        "stop" : 1601985940546,
+        "duration" : 22894
+      }
+    }, {
+      "uid" : "33cdf3e25d950418",
+      "status" : "broken",
+      "statusDetails" : "Step \"And I enter departure date as \"25.10.2020\"\" is not definedYou can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1601985809289,
+        "stop" : 1601985829747,
+        "duration" : 20458
+      }
+    }, {
+      "uid" : "1210ccaed299f5d3",
+      "status" : "broken",
+      "statusDetails" : "Step \"Then avaliable flights are displayed\" is not definedYou can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1601985365260,
+        "stop" : 1601985382043,
+        "duration" : 16783
+      }
+    }, {
+      "uid" : "c44b5cb3b88814",
+      "status" : "broken",
+      "statusDetails" : "Step \"Then avaliable flights are displayed\" is not definedYou can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1601985275099,
+        "stop" : 1601985280979,
+        "duration" : 5880
+      }
+    }, {
+      "uid" : "e9bb8888b9f9119d",
+      "status" : "broken",
+      "statusDetails" : "Step \"Then avaliable flights are displayed\" is not definedYou can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1601984995900,
+        "stop" : 1601985000918,
+        "duration" : 5018
+      }
+    }, {
+      "uid" : "a72dd6398cc7e13b",
+      "status" : "broken",
+      "statusDetails" : "Step \"Then avaliable flights are displayed\" is not definedYou can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1601984707852,
+        "stop" : 1601984711727,
+        "duration" : 3875
+      }
+    }, {
+      "uid" : "9cb50b769df99ec9",
+      "status" : "broken",
+      "statusDetails" : "Step \"Then avaliable flights are displayed\" is not definedYou can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1601984584663,
+        "stop" : 1601984589459,
+        "duration" : 4796
+      }
+    }, {
+      "uid" : "5d87db02144e32c3",
+      "status" : "broken",
+      "statusDetails" : "Step \"Then avaliable flights are displayed\" is not definedYou can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1601983982824,
+        "stop" : 1601983987376,
+        "duration" : 4552
+      }
+    }, {
+      "uid" : "7ca8161f8c2e172a",
+      "status" : "broken",
+      "statusDetails" : "Step \"Then avaliable flights are displayed\" is not definedYou can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1601983912961,
+        "stop" : 1601983912967,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "f3d505d7f517c66c",
+      "status" : "broken",
+      "statusDetails" : "Step \"Then avaliable flights are displayed\" is not definedYou can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1601983868991,
+        "stop" : 1601983869003,
+        "duration" : 12
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fbe10b87797272ff.json",
+  "parameterValues" : [ "opera-83.0.4103.116" ]
+}

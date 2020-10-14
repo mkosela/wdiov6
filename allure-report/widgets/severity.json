@@ -1,0 +1,61 @@
+[ {
+  "uid" : "158cc585646ce0d2",
+  "name" : "Searching for flight",
+  "time" : {
+    "start" : 1602062020198,
+    "stop" : 1602062042412,
+    "duration" : 22214
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3f1a59de5bc016b",
+  "name" : "demo scenario",
+  "time" : {
+    "start" : 1599656010023,
+    "stop" : 1599656027771,
+    "duration" : 17748
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3edb0aa466b8b7c1",
+  "name" : "demo scenario",
+  "time" : {
+    "start" : 1599656009045,
+    "stop" : 1599656025908,
+    "duration" : 16863
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbe10b87797272ff",
+  "name" : "Searching for flight",
+  "time" : {
+    "start" : 1602062020214,
+    "stop" : 1602062045693,
+    "duration" : 25479
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87d6b4594bad31c2",
+  "name" : "demo scenario",
+  "time" : {
+    "start" : 1599656013448,
+    "stop" : 1599656029569,
+    "duration" : 16121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c25438e7d55ea55",
+  "name" : "Searching for flight",
+  "time" : {
+    "start" : 1602062021433,
+    "stop" : 1602062043701,
+    "duration" : 22268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
